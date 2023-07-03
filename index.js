@@ -5,7 +5,7 @@ const { version, name } = require("./package.json");
 // the only purpose is, to test the github action
 // the following number increases with each comment
 //
-// test: 1
+// test: 2
 
 console.log(`Starting ${name} v${version}...`);
 
