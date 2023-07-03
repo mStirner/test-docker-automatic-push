@@ -1,0 +1,21 @@
+{
+  "name": "test-docker-automatic-push",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build . -t test-docker-automatic-push",
+    "docker:run": "docker run --rm -it test-docker-automatic-push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mStirner/test-docker-automatic-push.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mStirner/test-docker-automatic-push/issues"
+  },
+  "homepage": "https://github.com/mStirner/test-docker-automatic-push#readme"
+}
